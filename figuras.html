@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geométricas</title>
+</head>
+<body>
+    <header>
+        <h1>Figuras Geométricas</h1>
+        <p>Este es la primera parte del curso practico de JavaScript</p>
+    </header>
+
+    <section>
+        <h2>Calcula area y perimetro de un cuadrado</h2>
+        <form action="">
+            <label for="InputCuadrado">
+                Escribe cuánto mide cada lado de tu cuadrado
+            </label>
+            <input id="InputCuadrado" type="number"/>
+                <button type="button" onclick="calcularPerimetroCuadrado()">
+                    Calcular el perímetro
+                </button>
+                <button type="button" onclick="calcularAreaCuadrado()">
+                    Calcular el área
+                </button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Calcula area y perimetro de un triangulo</h2>
+        <form action="">
+            <label for="tLado1">
+                Ingresa el tamaño del primer lado
+            </label>
+            <input name="tLado1" id="tLado1" type="number"/>
+            <label for="tLado2">
+                Ingresa el tamaño del segundo lado
+            </label>
+            <input name="tLado2" id="tLado2" type="number"/>
+            <label for="tBase">
+                Ingresa el tamaño de la base
+            </label>
+            <input name="Base" id="tBase" type="number"/>
+            <label for="tAltura">
+                Ingresa el tamaño del primer lado
+            </label>
+            <input name="tAltura" id="tAltura" type="number">
+                <button type="button" onclick="triangulo2()">
+                    Calcular
+                </button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Calcula area y perimetro de un circulo</h2>
+        <form action="">
+            <label for="cRadio">Ingresa el valor del radio</label>
+            <input name="cRadio" id="cRadio" type="number">
+                <button type="button" onclick="circulo2()">
+                    Calcular
+                </button>
+        </form>
+    </section>
+    <script src="./figuras.js"></script>
+</body>
+</html>
